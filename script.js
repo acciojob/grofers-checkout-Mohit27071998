@@ -13,6 +13,7 @@ const getSum = () => {
 
   let tbl = document.querySelector('table');
   let tr = document.createElement("tr");
+	tr.setAttribute('id','ans');
   tr.innerHTML = `
     <td>Total Price</td>
     <td>${total}</td>
